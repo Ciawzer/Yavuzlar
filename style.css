@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
+}
+body {
+    background: #af5603;
+}
+.app{
+   background: white;
+   width: 90%;
+   max-width: 600px;
+   margin: 100px auto 0;
+   border-radius: 10px;
+   padding: 30px;
+
+}
+
+.app h1{
+    font-weight: 25px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding-bottom: 30px;
+}
+
+.settings{
+    padding: 20px 0;
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background: red;
+    color: white;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color: rgb(124, 21, 21);
+    font-weight: 600px;
+
+}
+
+.btn2{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn2:hover:not([disabled]){
+    background: red;
+    color: white;
+}
+
+
+.btn2:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+  background:red;
+  color: black;
+  font-weight: 500;
+  width: 150;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+.correct{
+    background: #04cd5b;
+}
+
+.incorrect{
+    background: #ff9393;
+}
+
+.option {
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    text-align: left;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    position: relative;
+     
+}
+
+.btn3{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    height: 50%;
+    width: 15%;
+    border-bottom: 2px solid black;
+    padding-bottom: 2px;
+    text-align: center;
+    
+    margin: -30px 350px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: absolute;
+
+}
+
+
+.btn3:hover{
+    background: red;
+    color: white;
+}
+
+
+.btn4{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    height: 50%;
+    width: 15%;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding-bottom: 2px;
+    margin: -30px 440px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: absolute;
+}
+
+
+.btn4:hover{
+    background: red;
+    color: white;
+}
+
+#temp{
+    margin-top: 15px;
+}
+
+#input{
+    background: #fff;
+    color: #222;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    display: flex; 
+}
